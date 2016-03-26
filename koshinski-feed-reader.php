@@ -16,7 +16,7 @@
  * Plugin Name:       Kleinwerkstatt - Feed Reader
  * Plugin URI:        https://www.koshinski.de/
  * Description:       Liest die aktuellen Nachrichten von koshinski aus.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            koshinski
  * Author URI:        https://www.koshinski.de/
  * License:           GPL-2.0+
