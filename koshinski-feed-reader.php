@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       Kleinwerkstatt - Feed Reader
  * Plugin URI:        https://www.koshinski.de/
- * Description:       Liest die aktuellen Nachrichten von koshinski aus.
+ * Description:       Liest die aktuellen Nachrichten von Kleinwerkstatt aus.
  * Version:           1.0.1
  * Author:            koshinski
  * Author URI:        https://www.koshinski.de/
