@@ -65,10 +65,10 @@ class Koshinski_feed_reader_Admin {
 		return 7200;
 	}
 	public function dashboard_setup(){
-		wp_add_dashboard_widget( 'dashboard-reader', __( 'News from koshinski.de', $this->textdomain ), array( $this, 'dashboard_content' ) );
+		wp_add_dashboard_widget( 'dashboard-reader', __( 'News from Kleinwerkstatt', $this->textdomain ), array( $this, 'dashboard_content' ) );
 	}
 	public function dashboard_content(){
-		$feed = fetch_feed( 'http://www.koshinski-webprogrammierung.de/feed/' );
+		$feed = fetch_feed( 'http://www.kleinwerkstatt.com/feed/' );
 		$visible = false;
 		$hiddenClass = ' koshinski-invisible';
 		$dateFormat = get_option('date_format');
