@@ -3,3 +3,29 @@
  * included in this file.
  */
 
+#koshinski_feed_reader {
+    width:100%;
+}
+#dashboard-reader-content {
+    padding-top:20px;
+}
+#dashboard-reader-content li {
+    border-top:1px solid #ccc;
+    padding-top:12px;
+}
+#dashboard-reader-content li:first-child {
+    border-top:none;
+    padding-top:0;
+}
+#dashboard-reader-content li:after {
+    display:table;
+    content:"";
+    clear:both;
+}
+#dashboard-reader-content .rsswidget {}
+#dashboard-reader-content .rss-date {
+    float:right;
+}
+#dashboard-reader-content .rssSummary {
+    text-align: justify;
+}
